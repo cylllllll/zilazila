@@ -14,28 +14,26 @@ export const storeConfig = {
 } as const;
 
 export const site = {
-	name: "Your App Name",
-	url: "https://your-domain.com",
+	name: "zilazila",
+	url: "https://zilazila.pages.dev",
 	description:
-		"Here you can write a brief description of your application. Tell users about its main features and benefits in 1-2 sentences.",
+		"一个 tvOS 端 bilibili 第三方播放器",
 	logo: "/favicon.svg",
-	keywords: ["mobile app", "landing page", "nextjs", "react", "typescript"],
+	keywords: ["bilibili", "第三方", "播放器", "tvOS"],
 	storeLinks: {
-		apple: "#",
-		google: "#",
+		apple: "https://apps.apple.com/us/app/zilazila/id6756011268",
+		google: "https://testflight.apple.com/join/32EqU7Sw",
 	},
 	rating: {
-		score: 4.8,
-		count: "1.2K",
-	},
+    	score: 0,
+    	count: "0",
+    },
 	ageRating: "4+",
 	version: "1.0.0",
-	minimumOS: "13.0",
-	releaseDate: "Jan 10, 2026",
+	minimumOS: "26.0",
+	releaseDate: "Jul 6, 2026",
 	social: [
-		{ url: "#", icon: "RiInstagramFill", label: "Instagram" },
-		{ url: "#", icon: "RiTelegram2Fill", label: "Telegram" },
-		{ url: "#", icon: "RiTwitterXFill", label: "X (Twitter)" },
+		{ url: "https://t.me/zilazilaApp", icon: "RiTelegram2Fill", label: "Telegram" },
 	] as SocialLink[],
 } as const;
 
@@ -45,45 +43,9 @@ export const features: Feature[] = [
 		description: "Describe your main feature here. What makes it special?",
 		icon: "FiStar",
 	},
-	{
-		title: "Lightning Fast",
-		description:
-			"Optimized for speed so everything feels instant, even on older devices.",
-		icon: "FiZap",
-	},
-	{
-		title: "Offline Mode",
-		description: "All your data is available offline. No internet? No problem.",
-		icon: "FiBox",
-	},
-	{
-		title: "Private & Secure",
-		description:
-			"End-to-end encryption keeps your data safe. We never sell your info.",
-		icon: "FiShield",
-	},
-	{
-		title: "Cloud Sync",
-		description:
-			"Stay in sync across all your devices. Changes appear everywhere instantly.",
-		icon: "FiCloud",
-	},
-	{
-		title: "Fully Customizable",
-		description:
-			"Tailor the experience to your workflow with powerful settings.",
-		icon: "FiSliders",
-	},
 ];
 
 export const screenshots: string[] = [
-	"/assets/screenshots/1.png",
-	"/assets/screenshots/1.png",
-	"/assets/screenshots/1.png",
-	"/assets/screenshots/1.png",
-	"/assets/screenshots/1.png",
-	"/assets/screenshots/1.png",
-	"/assets/screenshots/1.png",
 	"/assets/screenshots/1.png",
 ];
 
@@ -165,33 +127,18 @@ export const reviews: Review[] = [
 
 export const faqs: FAQItem[] = [
 	{
-		question: "Is the app free to download?",
+		question: "免费吗？",
 		answer:
-			"Yes! The app is free to download on both the App Store and Google Play. A Pro plan is available for users who want access to advanced features.",
+			"这款应用可在 App Store 和 TestFlight 免费下载，不包含任何内购。",
 	},
 	{
-		question: "Which platforms are supported?",
+		question: "支持 tvOS 什么系统版本？",
 		answer:
-			"The app is available for iOS 13.0+ and Android 8.0+. A web version is coming soon.",
+			"只支持 tvOS 26.0 及以上版本。",
 	},
 	{
-		question: "Can I use the app offline?",
+		question: "如何使用？",
 		answer:
-			"Core features work fully offline. Your data syncs automatically when you reconnect to the internet.",
-	},
-	{
-		question: "How do I restore my purchases?",
-		answer:
-			"Open the app, go to Settings → Subscription, and tap Restore Purchases. Make sure you're signed in with the same account used for the original purchase.",
-	},
-	{
-		question: "Is my data private and secure?",
-		answer:
-			"Absolutely. Your data is encrypted in transit and at rest. We never sell or share your personal information with third parties. See our Privacy Policy for full details.",
-	},
-	{
-		question: "How do I reach support?",
-		answer:
-			"Tap Help in the app settings or email us at support@example.com. We respond within 24 hours on business days.",
+			"输入： zilazila://",
 	},
 ];

@@ -25,13 +25,15 @@ const StoreButtons = ({ storeLinks }: StoreButtonsProps) => (
 			rel="noopener noreferrer"
 			className="flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-6 py-3.5 font-semibold text-gray-900 shadow-sm transition-all duration-200 hover:scale-[1.02] hover:bg-gray-50 active:scale-[0.98] dark:border-white/15 dark:bg-white/8 dark:text-white dark:hover:bg-white/12"
 		>
-			<FaGooglePlay className="h-5 w-5 shrink-0" />
+			<div className="flex items-center justify-center w-7 h-7">
+				<img src="/assets/TestFlight.png" alt="TestFlight"/>
+			</div>
 			<span className="text-left">
 				<span className="block text-[10px] font-normal leading-tight text-gray-500 dark:text-white/50">
-					Get it on
+					Test it on
 				</span>
 				<span className="block text-sm font-bold leading-tight">
-					Google Play
+					TestFlight
 				</span>
 			</span>
 		</a>

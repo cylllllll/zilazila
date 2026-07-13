@@ -15,9 +15,9 @@ const FAQ = ({ items }: FAQProps) => (
 			className="mb-12 flex flex-col items-center text-center"
 		>
 			<span className="section-label mb-4">FAQ</span>
-			<h2 className="section-heading max-w-2xl">
-				Got questions? <span className="accent">We've got answers.</span>
-			</h2>
+			{/*<h2 className="section-heading max-w-2xl">*/}
+			{/*	Got questions? <span className="accent">We've got answers.</span>*/}
+			{/*</h2>*/}
 		</motion.div>
 
 		<div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

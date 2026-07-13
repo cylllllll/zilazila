@@ -64,13 +64,15 @@ const FooterDesktop = ({ name, logo }: FooterProps) => (
 					rel="noopener noreferrer"
 					className="flex items-center gap-2.5 rounded-xl border border-gray-200 bg-white px-4 py-2.5 transition-all duration-200 hover:bg-gray-50 dark:border-white/12 dark:bg-white/6 dark:hover:bg-white/10"
 				>
-					<FaGooglePlay className="h-4 w-4 shrink-0 text-gray-800 dark:text-white" />
+					<div className="flex items-center justify-center w-7 h-7">
+						<img src="/assets/TestFlight.png" alt="TestFlight"/>
+					</div>
 					<span className="text-left">
 						<span className="block text-[9px] font-normal leading-tight text-gray-500 dark:text-white/45">
-							Get it on
+							Test it on
 						</span>
 						<span className="block text-xs font-bold leading-tight text-gray-900 dark:text-white">
-							Google Play
+							TestFlight
 						</span>
 					</span>
 				</a>

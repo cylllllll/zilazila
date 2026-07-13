@@ -36,18 +36,18 @@ const AppHero = ({
 				/>
 			</motion.div>
 
-			<motion.div
-				{...up(0.05)}
-				className="mb-3 flex flex-wrap items-center justify-center gap-2.5 sm:mb-6"
-			>
-				<RatingStars rating={rating.score} />
-				<span className="text-sm text-gray-500 dark:text-white/45">
-					{rating.score} · {rating.count} ratings
-				</span>
-				<span className="rounded-md border border-gray-200 bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500 dark:border-white/10 dark:bg-white/5 dark:text-white/50">
-					{ageRating}
-				</span>
-			</motion.div>
+			{/*<motion.div*/}
+			{/*	{...up(0.05)}*/}
+			{/*	className="mb-3 flex flex-wrap items-center justify-center gap-2.5 sm:mb-6"*/}
+			{/*>*/}
+			{/*	<RatingStars rating={rating.score} />*/}
+			{/*	<span className="text-sm text-gray-500 dark:text-white/45">*/}
+			{/*		{rating.score} · {rating.count} ratings*/}
+			{/*	</span>*/}
+			{/*	<span className="rounded-md border border-gray-200 bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-500 dark:border-white/10 dark:bg-white/5 dark:text-white/50">*/}
+			{/*		{ageRating}*/}
+			{/*	</span>*/}
+			{/*</motion.div>*/}
 
 			<motion.h1
 				{...up(0.1)}
