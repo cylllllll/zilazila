@@ -29,9 +29,9 @@ export const site = {
     	count: "0",
     },
 	ageRating: "4+",
-	version: "1.0.0",
+	version: "1.0.1",
 	minimumOS: "26.0",
-	releaseDate: "Jul 6, 2026",
+	releaseDate: "Jul 20, 2026",
 	social: [
 		{ url: "https://t.me/zilazilaApp", icon: "RiTelegram2Fill", label: "Telegram" },
 	] as SocialLink[],
